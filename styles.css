@@ -1,0 +1,73 @@
+/* Background */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    
+    background: #936dcf;
+    justify-content: center;
+    align-items: center;
+     font-family: Arial, sans-serif;
+}
+
+/* Card */
+.card {
+    width: 350px;
+    background: #ffffff;
+    padding: 30px;
+    height: 350px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Profile Image */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #b8bdff;
+    
+    object-fit: cover;
+}
+
+/* Name */
+h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Bio */
+p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Social Buttons */
+footer {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn {
+    padding: 8px 20px;
+    border: 1.8px solid #6a80ff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #6a80ff;
+    transition: 0.3s ease;
+}
+
+/* Hover Effect */
+.btn:hover {
+    background: #6a80ff;
+    color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
